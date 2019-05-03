@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en" >
 
 <head>
   <meta charset="UTF-8">
@@ -6,69 +7,44 @@
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Ananya Rao Personal Website">
+<meta name="description" content="Personal website for Stuco">
 <meta name="author" content="Ananya Rao">
   
-<link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:100,500'>
-<link rel="stylesheet" href="css/style.css">
+
+      <link rel="stylesheet" href="css/style.css">
 
   
 </head>
 
-
-<html lang="en">
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark info-color">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-               <a class="nav-link waves-effect waves-light" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item waves-effect waves-light" href="#">Action</a>
-                    <a class="dropdown-item waves-effect waves-light" href="#">Another action</a>
-                    <a class="dropdown-item waves-effect waves-light" href="#">Something else here</a>
-                </div>
-            </li>
-        </ul>
-        <form class="form-inline">
-            <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            </div>
-        </form>
-    </div>
-</nav>
+  <html lang="en">
+<body>
 
-  
+  <nav class="main-nav" id="main-nav">
+    <div style="height:80px;background: rgb(51,74,92);padding-top: 1px;"><h2 class="text-center" style="color:#fff; letter-spacing:2px;">MENU</h2></div>
+    <ul class="nav nav-pills nav-stacked">
+      <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a></li>
+      <li><a href="#about"><i class="fa fa-user fa-fw"></i>&nbsp; About</a></li>
+      <li><a href="#experience"><i class="fa fa-user fa-fw"></i>&nbsp; Experience</a></li>
+      <li><a href="#what-i-do"><i class="fa fa-signal fa-fw"></i>&nbsp; Skills</a></li>
+      <li><a href="#work"><i class="fa fa-briefcase fa-fw"></i>&nbsp; Projects</a></li>
+      <li><a href="#contact"><i class="fa fa-envelope-o fa-fw"></i>&nbsp; Contact</a></li>
+    </ul>
+  </nav>
 
   <div class="page-wrap">
 
-    <div class="menupage">
+    <div class="jumbotron">
       <div style="margin-top:130px" class="container">
         <a href="#main-nav" class="h5 open-menu"><i style="color:#fff; position: relative; bottom:120px; cursor:pointer;" class="fa fa-bars fa-2x fa-fw"></i></a>
         <a href="#" class="h5 close-menu"><i style="color:#fff; position: relative; bottom:120px; cursor:pointer;" class="fa fa-times fa-2x fa-fw"></i></a>
         <h1>Ananya Rao</h1>
         <div class="spacer"></div>
-        <hr><hr>
-        <h2 class="text-center"></h2>
       </div>
     </div>
-	 
-	  
 
     <div class="section" id="about"><h1>About</h1><hr></div>
 
@@ -76,12 +52,14 @@
       <div class="row">
         <div class="col-md-4">
           <div class="well">
-            <img src="pp.jpg" style="height:60%; width:60%">
+            <img src="pp.jpg" style="height:100%; width:100%">
           </div>
         </div>
         <div class="col-md-8">
           <div class="well">
-            <h2 class="text-center">I am currently a second-year student attending Carnegie Mellon University in Pittsburgh, PA. I am pursuing a Bachelors in Science degree in Computer Science, with an additional major in Robotics.</h2>
+            <h3>Ananya Rao</h3>
+            <p>I am currently a second-year student attending Carnegie Mellon University in Pittsburgh, PA. I am pursuing a Bachelors in Science degree in Computer Science, with an additional major in Robotics.</p>
+            <p><a href="#form" class="btn btn-default">Hire me</a></p>
           </div>
         </div>
       </div><!--/.row-->
@@ -90,121 +68,24 @@
 
 
     <div class="section" id="experience"><h1>Experience</h1><hr></div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="well">
-            <h3>Biorobotics Lab, Carnegie Mellon University</h3>
-	    <h6> Undergraduate Researcher </h6>
-            <p>Working on path planning algorithms for heterogeneous multi-agent robotic systems for search and rescue
-• Created and tested algorithm that evaluates motion blur of visual feedback from a hexapod robot to use this
-		    information to improve the stabilization of locomotion of the robot</p>
-          </div>
-        </div>
-		  
-	     <div class="col-md-8">
-          <div class="well">
-            <h3>GE Transportation</h3>
-	    <h6>Digital Technology Intern </h6>
-            <p>Completed various internal and external projects on Business Intelligence DevOps team
-• Worked on Tech Challenge team to replicate and improve a diagnostics analytic and build a visualization dashboard
-• Co-lead of DTLP Professional Development Committee; Mentor at GE Girls</p>
-          </div>
-        </div>
-		  
-        <div class="col-md-8">
-          <div class="well">
-            <h3>OH!Lab, Carnegie Mellon University</h3>
-	    <h6>Research Assistant </h6>
-            <p>Conduct studies related to effect of structured review on game design and effect of gameplay on conceptual learning</p>
-	    <h6>Publicity Coordinator</h6>
-	    <p>Conceptualized and implemented design changes to website; Interviewed lab members to generate content</p>	  		  
-          </div>
-        </div>
-	      
-	      <div class="col-md-8">
-          <div class="well">
-            <h3>Juni Learning</h3>
-	    <h6>Instructor </h6>
-            <p>Instructor for online computer courses in Python, Java and Scratch and AP CS for students between the ages 8 and 16</p> 		  
-          </div>
-        </div>
-		  
-      </div><!--/.row-->
-    </div><!--/.container-->
-
-
-
-    <div class="section" id="skills"><h1> Skills </h1><hr></div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="well">
-            <h3>Skills</h3>
-            <div class="spacer"></div><div class="spacer"></div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="html"></div> <h4 style="font-weight: 400; display: inline;">HTML5</h4><br>
-                <div class="css"></div> <h4 style="font-weight: 400; display: inline;">CSS3</h4><br>
-                <div class="php"></div> <h4 style="font-weight: 400; display: inline;">PHP</h4><br>
-                <div class="sql"></div> <h4 style="font-weight: 400; display: inline; margin-bottom:5px;">SQL</h4>
-              </div>
-              <div class="col-md-8">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-html" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">HTML5 90%</span>
-                  </div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-css" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                    <span class="sr-only">CSS3 90%</span>
-                  </div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                    <span class="sr-only">PHP 70%</span>
-                  </div>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar progress-bar-sql" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                    <span class="sr-only">SQL 80%</span>
-                  </div>
-                </div>
-              </div><!--/.col-6-->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="section" id="projects"><h1> Projects </h1><hr></div>
-
-   <!--  <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="well">
-            <h3>I Build Great Websites</h3>
-            <p>Being a full stack developer, I can develop any website from a database driven web app to a small static site. Every custom website built uses higher grade techniques and is fast, mobile friendly, scalable.</p>
-          </div>
-        </div>
-      </<! --> 
     <div class="work visible-lg" style="height:250px !important;">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <h3><i class="fa fa-code"></i>&nbsp; Fyrne - An Adventure Game For All </h3>
-            <p>Conceptualized, designed and developed a choose-your-own-adventure game using Python and Microsoft Azure aimed at promoting diversity, tolerance and inclusivity through its storyline; Project started at TartanHacks</p>
+            <h3><i class="fa fa-code"></i>&nbsp; Biorobotics Lab, Carnegie Mellon University</h3>
+            <p>Working on path planning algorithms for heterogeneous multi-agent robotic systems for search and rescue • Created and tested algorithm that evaluates motion blur of visual feedback from a hexapod robot to use this information to improve the stabilization of locomotion of the robot</p>
           </div>
           <div class="col-md-3">
-            <h3><i class="fa fa-fighter-jet"></i>&nbsp; Voting System</h3>
-            <p>Designed and coded voting system for student council elections using C++; in use at National Academy For Learning.</p>
+            <h3><i class="fa fa-fighter-jet"></i>&nbsp; GE Transportation</h3>
+            <p> Completed various internal and external projects on Business Intelligence DevOps team • Worked on Tech Challenge team to replicate and improve a diagnostics analytic and build a visualization dashboard • Co-lead of DTLP Professional Development Committee; Mentor at GE Girls </p>
           </div>
           <div class="col-md-3">
-            <h3><i class="fa fa-arrows-alt"></i>&nbsp; Agrigaid </h3>
-            <p>Conceptualized, designed and coded a mobile application that helps farmers rent and lend farming equipment using MIT App Inventor and created a business plan, pitch video and demo video for the mobile application; App was a semifinalist at Technovation, a competition for women in entrepreneurship</p>
+            <h3><i class="fa fa-arrows-alt"></i>&nbsp; OH!Lab, Carnegie Mellon University</h3>
+            <p> Conduct studies related to effect of structured review on game design and effect of gameplay on conceptual learning. Conceptualized and implemented design changes to website; Interviewed lab members to generate content
+          </div>
+          <div class="col-md-3">
+            <h3><i class="fa fa-bolt"></i>&nbsp; Juni Learning</h3>
+            <p> Instructor for online computer courses in Python, Java and Scratch and AP CS for students between the ages 8 and 16</p>
           </div>
         </div><!--/.row-->
       </div><!--/.container-->
@@ -214,20 +95,26 @@
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="well">
-            <h3><i class="fa fa-code"></i>&nbsp; Fyrne - An Adventure Game For All</h3>
-            <p>Conceptualized, designed and developed a choose-your-own-adventure game using Python and Microsoft Azure aimed at promoting diversity, tolerance and inclusivity through its storyline; Project started at TartanHacks </p>
+            <h3><i class="fa fa-code"></i>&nbsp; Biorobotics Lab, Carnegie Mellon University</h3>
+            <p> Working on path planning algorithms for heterogeneous multi-agent robotic systems for search and rescue • Created and tested algorithm that evaluates motion blur of visual feedback from a hexapod robot to use this information to improve the stabilization of locomotion of the robot </p>
           </div>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="well">
-            <h3><i class="fa fa-fighter-jet"></i>&nbsp; Voting System </h3>
-            <p>Designed and coded voting system for student council elections using C++; in use at National Academy For Learning. </p>
+            <h3><i class="fa fa-fighter-jet"></i>&nbsp; GE Transportation</h3>
+            <p> Completed various internal and external projects on Business Intelligence DevOps team • Worked on Tech Challenge team to replicate and improve a diagnostics analytic and build a visualization dashboard • Co-lead of DTLP Professional Development Committee; Mentor at GE Girls </p>
           </div>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="well">
-            <h3><i class="fa fa-arrows-alt"></i>&nbsp; Agrigaid </h3>
-            <p>Conceptualized, designed and coded a mobile application that helps farmers rent and lend farming equipment using MIT App Inventor and created a business plan, pitch video and demo video for the mobile application; App was a semifinalist at Technovation, a competition for women in entrepreneurship </p>
+            <h3><i class="fa fa-arrows-alt"></i>&nbsp; OH!Lab, Carnegie Mellon University</h3>
+            <p> Conduct studies related to effect of structured review on game design and effect of gameplay on conceptual learning. Conceptualized and implemented design changes to website; Interviewed lab members to generate content </p>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="well">
+            <h3><i class="fa fa-bolt"></i>&nbsp; Juni Learning</h3>
+            <p> Instructor for online computer courses in Python, Java and Scratch and AP CS for students between the ages 8 and 16 </p>
           </div>
         </div>
       </div><!--/.row-->
@@ -235,8 +122,74 @@
 
 
 
-    <!--<div class="hidden-xs"><div class="work-together" id="contact">LETS WORK TOGETHER</div></div>-->
-    <div class="section" id="contact"><h1>Contact </h1><hr></div>
+    <div class="section" id="what-i-do"><h1>Skills</h1><hr></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="well">
+            <h3>Skills</h3>
+            <div class="spacer"></div><div class="spacer"></div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="html"></div> <h4 style="font-weight: 400; display: inline;">C++</h4><br>
+                <div class="css"></div> <h4 style="font-weight: 400; display: inline;">Java</h4><br>
+                <div class="php"></div> <h4 style="font-weight: 400; display: inline;">Python</h4><br>
+                <div class="sql"></div> <h4 style="font-weight: 400; display: inline; margin-bottom:5px;">SML</h4>
+              </div>
+              <div class="col-md-8">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-html" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">C++ 90%</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-css" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <span class="sr-only">Java 90%</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                    <span class="sr-only">Python 70%</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-sql" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                    <span class="sr-only">SML 80%</span>
+                  </div>
+                </div>
+              </div><!--/.col-6-->
+            </div>
+          </div>
+        </div>
+      </div><!--/.row-->
+    </div><!--/.container-->
+
+
+    <div class="section" id="work"><h1>Recent Work</h1><hr></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <h3>Fyrne - An Adventure Game For All</h3>
+            <p>Conceptualized, designed and developed a choose-your-own-adventure game using Python and Microsoft Azure aimed at promoting diversity, tolerance and inclusivity through its storyline; Project started at TartanHacks</p>
+            <div class="spacer"></div><div class="spacer"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <h3>Agrigaid</h3>
+            <p> Conceptualized, designed and coded a mobile application that helps farmers rent and lend farming equipment using MIT App Inventor and created a business plan, pitch video and demo video for the mobile application; App was a semifinalist at Technovation, a competition for women in entrepreneurship </p>
+            <div class="spacer"></div><div class="spacer"></div>
+          </div>
+        </div>
+      </div><!--/.row-->
+    </div><!--/.container-->
+
+
+    <!--<div class="hidden-xs"><div class="work-together" id="contact">Contact </div></div>-->
+    <div class="section" id="contact"><h1>Contact</h1><hr></div>
 
     <div class="work-together">
       <div class="container">
@@ -277,16 +230,22 @@
             </form>
           </div><!--/.col-->
           <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-		  <h3>Contact Details</h3><div class="spacer"></div>
-      <p class="lead" style="margin-bottom:0px;"><i class="fa fa-map-marker"></i>&nbsp; 5032 Forbes Avenue, SMC 1890</p><p class="lead" style="text-indent:24px">Pittsburgh, PA, 15289</p>
-            <p class="lead"><i class="fa fa-phone"></i>&nbsp; 412 616-7056</p>
+            <h3>Contact Details</h3><div class="spacer"></div>
+            <p class="lead" style="margin-bottom:0px;"><i class="fa fa-map-marker"></i>&nbsp; 5032 Forbes Avenue, SMC 1890</p><p class="lead" style="text-indent:24px">Pittsburgh, PA - 15289</p>
+            <p class="lead"><i class="fa fa-phone"></i>&nbsp; 412-616-7056</p>
             <p class="lead"><i class="fa fa-envelope"></i>&nbsp; ananyara@andrew.cmu.edu</p>
           </div>
         </div><!--/.row-->
       </div><!--/.container-->
+      <div class="container hidden-sm hidden-xs"><div class="spacer"></div><div class="spacer"></div><footer><p class="pull-right">Ananya Rao</p></footer></div>
     </div><!--/.work-together-->
 
   </div><!--/.page-wrap-->
 </body>
 </html>
+  
+  
 
+</body>
+
+</html>
