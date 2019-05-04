@@ -362,11 +362,11 @@ fieldset[disabled] .btn-default,fieldset[disabled] .btn-default:hover,fieldset[d
   background-image:linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent)}.progress-bar-sql{background-color:#b0dff5}.progress-striped 
 .progress-bar-sql{background-image:-webkit-linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
   background-image:linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent)}
-.html,.css,.php,.sql{height:15px;width:15px;display:inline-block;margin-top:10px}
-.html{background:#c2aae6}
-.css{background:#ffdf8a}
-.php{background:#acc88c}
-.sql{background:#b0dff5}
+.cpp,.java,.python,.sml{height:15px;width:15px;display:inline-block;margin-top:10px}
+.cpp{background:#c2aae6}
+.java{background:#ffdf8a}
+.python{background:#acc88c}
+.sml{background:#b0dff5}
 .list-group{margin-bottom:20px;padding-left:0}
 .list-group-item{position:relative;display:block;padding:10px 15px;margin-bottom:-1px;background-color:#fff;border:1px solid #ddd}
 .list-group-item:first-child{border-top-right-radius:4px;border-top-left-radius:4px}
